@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            {
+                //CompileTime c = new CompileTime();
+                //c.add(5, 6, 7);
+                RunTime.Animal r = new RunTime.Animal2();
+                r.sound();
+
+            }
+
         }
     }
 }
