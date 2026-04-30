@@ -6,5 +6,14 @@ namespace GarbageCollector
 {
     internal class Practice
     {
+        public Practice()
+        {
+            Console.WriteLine("GarbageCollector object created.");
+        }
+        ~Practice()
+        {
+
+            Console.WriteLine("Object destroyed");
+        }
     }
 }
