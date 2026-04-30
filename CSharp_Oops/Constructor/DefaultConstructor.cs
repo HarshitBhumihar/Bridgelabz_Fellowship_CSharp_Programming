@@ -6,5 +6,9 @@ namespace Constructor
 {
     internal class DefaultConstructor
     {
+        public DefaultConstructor()
+        {
+            Console.WriteLine("This is a Default Constructor");
+        }
     }
 }
